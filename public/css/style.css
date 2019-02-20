@@ -1,0 +1,537 @@
+@import "../../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+@import "../../node_modules/bootstrap/dist/css/bootstrap.css";
+@media screen and (min-width: 1601px) {
+  .hiddenSmall {
+    display: none;
+  }
+
+  .hiddenSmall1 {
+    display: none;
+  }
+
+  .hiddenSmall2 {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  .hiddenSmall {
+    display: none;
+  }
+
+  .hiddenSmall1 {
+    display: none;
+  }
+
+  .hiddenSmall2 {
+    display: none;
+  }
+
+  .container-carousel {
+    padding: 0rem 10rem !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hiddenSmall1 {
+    display: none;
+  }
+
+  .hiddenSmall2 {
+    display: none;
+  }
+
+  .shop-at-2stLine {
+    font-size: 50px !important;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: 1199px) {
+  .shop-at-2stLine {
+    font-size: 50px !important;
+  }
+
+  .hiddenSmall1 {
+    display: none;
+  }
+
+  .hiddenSmall2 {
+    display: none;
+  }
+
+  .container-carousel {
+    padding: 0rem 0rem !important;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 899px) {
+  .shop-at-2stLine {
+    font-size: 50px !important;
+  }
+
+  .hiddenSmall2 {
+    display: none;
+  }
+
+  .container-carousel {
+    padding: 0rem 0rem !important;
+  }
+}
+@media screen and (min-width: 270px) and (max-width: 599px) {
+  .shop-at-2stLine {
+    font-size: 50px !important;
+  }
+
+  .container-carousel {
+    padding: 0rem 2rem !important;
+  }
+}
+@media screen and (max-width: 269px) {
+  .shop-at-2stLine {
+    font-size: 50px !important;
+  }
+
+  .container-carousel {
+    padding: 0rem 0rem !important;
+  }
+}
+body {
+  margin: 0;
+  line-height: 1.7;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: white;
+  z-index: 1000;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+header {
+  padding: 0px 0px 25px 0px;
+}
+
+.body-wrapper {
+  border-color: #e6e6e6;
+}
+
+.body-outer-wrapper {
+  background-color: #ffffff;
+}
+
+.logo-inner {
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo-inner img {
+  width: 100%;
+  vertical-align: middle;
+  max-width: 165px;
+}
+
+.logo {
+  padding-bottom: 55px;
+  padding-top: 92px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.navigation {
+  text-align: center;
+  position: relative;
+  line-height: 0;
+}
+
+.nav-item {
+  padding: 0px 20px;
+  font-size: 15px;
+}
+
+.menu-item {
+  float: left;
+  padding-left: 0px;
+  padding-right: 26px;
+}
+
+#b1 {
+  background-color: white;
+  border: 0;
+}
+
+#b2 {
+  background-color: black;
+  border: 0;
+}
+
+.page-wrapper {
+  clear: both;
+}
+
+.shop-at {
+  background: #f3f3f3;
+  /* width: 100%; */
+  /* height: 100%; */
+}
+
+.shop-at-wrap {
+  left: 338px;
+  top: 210px;
+}
+
+.saleItemBtn {
+  border-radius: 30px;
+  border-width: Opx;
+  padding: 19px 40px;
+  min-height: 0px;
+  min-width: 0px;
+  max-height: none;
+  max-width: none;
+  background-color: #bd584e;
+  z-index: 8;
+  white-space: nowrap;
+  font-size: 13px;
+  line-height: 17px;
+  font-weight: 700;
+  font-family: Source Sans Pro;
+}
+
+.shop-at-1stLine {
+  color: #bd584e;
+  font-size: 50px;
+  font-weight: 300;
+  font-family: Poppins;
+  visibility: inherit;
+}
+
+.shop-at-2stLine {
+  font-size: 100px;
+  font-weight: 700;
+  color: #161616;
+  font-family: Poppins;
+  visibility: inherit;
+}
+
+.shop-at-3rdLine {
+  max-width: 540px;
+  white-space: normal;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #909090;
+  font-family: "Source Sans Pro";
+  visibility: inherit;
+}
+
+.slider-1 {
+  width: 90%;
+  height: auto;
+}
+
+.slightSpacing {
+  margin-top: 40px;
+  margin-bot: 30px;
+}
+
+.innerSpacing {
+  padding: 120px 0px;
+  margin: 0px 1rem;
+}
+
+.living-room {
+  background-image: url("../../images/services/service-1.jpg") !important;
+  background-size: cover;
+  background-position: center;
+  height: 309px;
+}
+
+.sale-items {
+  background-image: url("../../images/services/service-2.jpg") !important;
+  background-size: cover;
+  background-position: center;
+  height: 309px;
+}
+
+.clothes {
+  background-image: url("../../images/services/slider-3.jpg") !important;
+  background-size: cover;
+  background-position: center;
+  height: 309px;
+}
+
+.section3Text {
+  color: white;
+  border-bottom: 1px solid white;
+  font-size: 29px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  text-transform: none;
+  margin: 0px 100px;
+}
+
+.quadrillage img {
+  height: auto;
+  max-width: 100%;
+}
+.quadrillage a {
+  color: black;
+  font-size: 17px;
+}
+.quadrillage p {
+  color: red;
+}
+
+.price {
+  margin-top: 1rem;
+}
+
+.saleBtn {
+  border-radius: 35px;
+  border: 0px;
+  margin-right: 10px;
+  color: white;
+  padding: 11px 7px;
+}
+
+.reduction {
+  margin-right: 10px;
+  text-decoration: line-through;
+  color: grey;
+}
+
+.parallax-wrapper {
+  padding: 280px 0px 80px 0px;
+}
+
+.parallax {
+  background-image: url(../../images/cta-bg.jpg);
+  height: 636px;
+  transform: translate(0px, 0px);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-text-wrapper {
+  padding-top: 12rem;
+}
+.parallax-text-wrapper h3 {
+  padding: 3rem 1rem;
+}
+
+.lrnMoreBtn {
+  background-color: red;
+  border-radius: 35px;
+  padding: 25px;
+}
+
+.greyBG {
+  background-color: #f3f3f3;
+  padding: 5rem;
+  color: #9b9b9b;
+}
+.greyBG i {
+  color: black;
+  padding-bottom: 1rem;
+}
+.greyBG h3 {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  color: black;
+}
+.greyBG p {
+  padding: 2rem;
+}
+.greyBG a {
+  font-size: 13px;
+  color: #ffffff;
+  border-radius: 4px;
+  background: #303030;
+  padding: 1.2rem;
+  margin-top: 1rem;
+}
+
+.redBG {
+  background-color: #bd584e;
+  padding: 5rem 5rem 5rem 5rem;
+  color: white;
+  margin: 0rem 1rem;
+}
+.redBG i {
+  padding-bottom: 1rem;
+}
+.redBG h3 {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0px;
+}
+.redBG p {
+  padding: 2rem;
+}
+.redBG a {
+  font-size: 13px;
+  color: #ffffff;
+  border-radius: 4px;
+  background: #303030;
+  padding: 1.2rem;
+  margin-top: 1rem;
+}
+
+.styleAboutUs {
+  color: #9b9b9b;
+}
+.styleAboutUs h3 {
+  color: white;
+}
+
+.tagcloud a {
+  font-size: 11px !important;
+  text-transform: uppercase;
+  font-weight: 600;
+  float: left;
+  padding: 7px 16px 8px;
+  border-width: 1px;
+  border-style: solid;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.aboutFace {
+  padding: 2rem;
+}
+
+.borderRight {
+  border-right: 1px solid;
+  margin: 3rem 0rem;
+}
+
+.noBorder {
+  margin: 3rem 0rem;
+}
+
+.borderLeft {
+  border-left: 1px solid;
+  margin: 3rem 0rem;
+}
+
+.blackBG {
+  background-color: black;
+  margin: -1rem 0rem;
+}
+.blackBG .text-center {
+  color: #838383;
+  padding: 3rem;
+}
+
+.boutonConnexion {
+  border-radius: 10px;
+  border: 1px solid;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.centered-form {
+  margin-top: 60px;
+}
+
+.centered-form .panel {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+#spacingMargin {
+  margin-top: 7rem;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+.forHidden {
+  overflow: hidden;
+}
+
+.buttons {
+  border-radius: 1px solid black;
+  border: 1px;
+}
+
+.slide {
+  width: 2030px;
+}
+
+.col img {
+  width: 250px;
+}
+
+.container-carousel {
+  padding: 1rem 23rem;
+}
+.container-carousel a {
+  color: black !important;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.fa-circle {
+  color: black;
+}
+
+del {
+  color: grey;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+ins {
+  color: #bd584e;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+/*# sourceMappingURL=style.css.map */
