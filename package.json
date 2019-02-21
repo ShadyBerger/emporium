@@ -1,0 +1,28 @@
+{
+  "name": "emporium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.7.2",
+    "bootstrap": "^4.3.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.7",
+    "poppers": "^0.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShadyBerger/emporium.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShadyBerger/emporium/issues"
+  },
+  "homepage": "https://github.com/ShadyBerger/emporium#readme"
+}

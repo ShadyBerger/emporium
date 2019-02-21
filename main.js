@@ -34,6 +34,8 @@ window.onclick = function (event) {
 
 //themes Dark & Light
 var img1 = document.querySelectorAll('img');
+let jkl = document.querySelectorAll('.quadrillage a');
+let lkj = document.querySelectorAll('.slide a')
 function darkTheme() {
   document.querySelector('body').style.backgroundColor = "black";
   document.querySelector('div').style.backgroundColor = "black";
@@ -46,9 +48,15 @@ function darkTheme() {
   document.querySelector('.redBG > h3').style.color = "black";
   document.querySelector('.redBG > i').style.color = "black";
   document.getElementsByClassName('shop-at-2stLine')[0].style.color = "white";
-  for (i = 0; i < 10; i++) {
+  for (i = 0; i < 6; i++) {
     document.getElementsByClassName('fa-circle')[i].style.color = "white";
-  }
+  };
+  for (i=0; i<20 ;i++) {
+    jkl[i].classList.add('text-white');
+  };
+  for (i=0; i<20 ;i++) {
+    lkj[i].classList.add('text-white');
+  };
   for (i = 0; i < 100; i++) {
     img1[i].style.opacity = "0.7";
   };
@@ -72,9 +80,12 @@ function lightTheme() {
   document.getElementsByClassName('shop-at-2stLine')[0].style.color = "black"
   for (i = 0; i < 10; i++) {
     document.getElementsByClassName('fa-circle')[i].style.color = "black";
-  }
+  };
   for (i = 0; i < 100; i++) {
     img1[i].style.opacity = "1";
+  };
+  for (i=0; i<20 ;i++) {
+    jkl[i].classList.remove('text-white');
   };
 
   document.getElementsByClassName('modal-content')[0].style.backgroundColor = "white";
